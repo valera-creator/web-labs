@@ -1,9 +1,12 @@
-.blue{
+.blue-heading{
 color: #1e3cff;
 }
 
+.usuall-size{
+font-size: 150%;
+}
+
 .white-color{
-    font-size: 150%;
     color: white;
 }
 
@@ -19,6 +22,8 @@ background-color: black;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 20%;
+  max-width: 300px;
 }
 
 .highlight {
@@ -35,4 +40,28 @@ background-color: black;
 
 .red{
     color: red;
+}
+
+@media (max-width: 480px){
+    .blue-heading{
+        font-size: 1.5rem;
+}
+    .center-img {
+        width: 75%;}
+
+    .usuall-size{
+        font-size: 110%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    .center-img {
+    width: 95%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1428px){
+    .center-img {
+    width: 100%;
+}
 }
