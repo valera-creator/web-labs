@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+
+table {
+  border: 2px solid #f0f0f0;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: gray;
+}
+
+th, td {
+  border: 3px solid white;
+  padding: 2em;
+  text-align: center;
+  vertical-align: middle;
+  color: #00eeff;;
+}
+
+caption{
+    color: #01ff0d;
+    padding: 0.1em;
+    font-size: 130%;
+    font-weight: bold;
+    
+}
+
+.centered {
+  text-align: center;
+  color: #ffae00;
+}
+
+.centered ol {
+  display: inline-block;
+  text-align: left;
+  font-size: 140%;
+  padding-bottom: 0.5em;
+  padding-top: 0.2em;
+}
+
+.name_plants{
+    text-align: center;
+    color: #00ff37;
+    font-size: 130%;
+    margin-bottom: 0em;
+}
+
+li::marker {
+  color: #ee579e;
+}

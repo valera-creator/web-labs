@@ -22,18 +22,18 @@ p {
 h1 {
     text-align: center;
     color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Чёрная тень для выделения */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
     font-family: 'Arial', sans-serif;
     font-weight: bold;
 }
 
 nav ul {
-    list-style: none;           /* Убираем маркеры списка */
+    list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;              /* Делает элементы в строку */
-    gap: 15px;                  /* Расстояние между пунктами */
-    justify-content: center;    /* Центрируем меню по горизонтали */
+    display: flex;
+    gap: 15px;
+    justify-content: center;
     flex-wrap: wrap;            
 }
 
