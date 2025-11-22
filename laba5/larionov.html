@@ -8,6 +8,7 @@
           integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
           crossorigin="anonymous">
     <link rel="stylesheet" href="larionov_style.css">
+    <script src="larionov_js.js" defer></script>
     <title>Регистрация</title>
 </head>
 <body>
@@ -55,14 +56,5 @@
     </form>
 </div>
 
-<script>
-    const ageSelect = document.getElementById('age'); // с id должен совпадать в select
-    for (let age = 18; age <= 99; age++) {
-        const option = document.createElement('option');
-        option.value = age;
-        option.textContent = age;
-        ageSelect.appendChild(option);
-    }
-</script>
 </body>
 </html>
